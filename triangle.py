@@ -10,5 +10,5 @@ c=float(input())
 p = a + b + c
 print("Периметр: ", p)
 p /= 2
-s = math.sqrt(abs(p*(p-a)*(p-b)*(p-c)))
+s = math.sqrt(p*(p-a)*(p-b)*(p-c))
 print("Площадь: ", s)
