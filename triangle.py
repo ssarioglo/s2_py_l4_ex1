@@ -1,14 +1,14 @@
 import math
 
 print("Введите стороны треугольника")
-print("АВ:")
-ab=float(input())
-print("BC:")
-bc=float(input())
-print("CA:")
-ca=float(input())
-p = ab + bc + ca
+print("Сторона a:")
+a=float(input())
+print("Сторона b:")
+b=float(input())
+print("Сторона с:")
+c=float(input())
+p = a + b + c
 print("Периметр: ", p)
-p/=2
-s = math.sqrt(p*(p-ab)*(p-bc)*(p-ca))
+p /= 2
+s = math.sqrt(abs(p*(p-a)*(p-b)*(p-c)))
 print("Площадь: ", s)
